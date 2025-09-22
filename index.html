@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center><h3 id="time"></h3></center>
+  <!-- login form -->
+   <div id="login">
+   <div class="login-wrapper">
+        <div class="login-header">
+            Login Form
+        </div>
+        <div class="login-form">
+            <label for="username">Username *</label>
+            <input type="text" id="user"  placeholder="Enter your Username"  />
+
+            <label for="password">Password *</label>
+            <input type="password" id="password"  placeholder="Enter your Password" required />
+
+            <div class="remember">
+                <input type="checkbox" id="remember" name="remember" style="margin-right: 8px;">
+                <label for="remember">password show</label>
+            </div>
+
+            <button onclick="login_usar()">LOGIN</button>
+        </div>
+
+    </div>
+  </div>
+<!-- login from end -->
+
+<!-- form user data get -->
+    <div id="form_main">
+    <form method="post" name='google-sheet'>
+      <div id="form" name="">
+          <input type="number"  placeholder="Enter a roll_no" id="roll" required  class="input_info" name="Roll No"><br> <br>
+          <input type="text"  placeholder="Enter your Name`" id="name" required  class="input_info" name="Name"><br><br>
+          <input type="text"  placeholder="Enter your father" id="f_name" required  class="input_info" name="Father Name"><br><br>
+          <input type="text"  placeholder="Enter course name" id="course" required class="input_info" name="Course"><br><br>
+          <input type="text" readonly id="feedback" class="input_info" name="Result">
+          <button type="submit" onclick="from_submit()"  id="info_submit" name="submit">submit </button>
+
+      </div>
+      </form>
+    </div>
+<!-- end input detials -->
+
+  <div id="quiz">
+    <div id="main">
+        <div id="question"></div>
+    </div>
+    <center>
+    <Button class="btn" onclick="privious()"> Previous</Button>
+    <Button class="btn" onclick="next()">Next</Button>
+    <Button class="btn" onclick="submitQuiz()">Submit</Button>
+</center>
+
+  </div>
+  <div id="detail">
+  
+ <div id="info">
+    
+    <center>
+      <h3>Please read all Rule carefully</h3>
+      </center>
+    <ol>
+      <li>aapke pass total (35m) hai all question solov karne ke liye time display ho raha hai  </li>
+      <li> question cerafull read kare tab click correct option</li>
+      <li>quiz submit karne par ek form aayega use sabhi box ko fill kare</li>
+      <li>aagar aap ne sabhi Rule sahi se read kar liye ho tab check box par click </li>
+      <br><br>
+      <input type="checkbox" id="check_box"><br> <br>
+      <button id="info__btn" onclick="quiz_start()">Continue Test</button>
+    </ol>
+    <h2>Developed by shivam maurya (A'Level) <a href="https://shivamaurya768.github.io/My-portfolio-/" target="_blank">My portfolio </a></a></h2>
+    <h2>teacher --> vikash pal</h2>
+    
+  </div>
+</div>
+  <script src="script.js"></script>
+  
+</html>

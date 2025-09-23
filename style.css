@@ -170,6 +170,23 @@ button:hover{
                 box-shadow: 0 4px 10px rgba(0,0,0,0.1);
             }
         }
+/* how many solov qes in button */
+.sbtn{
+    background-color: red;
+    height:30px;
+    width: 30px;
+    background-size: cover;
+    font-size: 13px;
+    border-radius: 50%;
+    border: none;
+    color:blue;
+
+}
+
+
+
+
+
 #info__btn{
     display: none;
     height: 30px;
@@ -187,6 +204,11 @@ li{
 }
 
 /* login from end */
+
+#hh_solov{
+    display: inline;
+     display: none; 
+}
 #detail{
     display: none;
 }

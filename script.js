@@ -119,204 +119,204 @@ let q = [
                     "Optical": false
                 }
             ],
-            ["Q-->16 ",
+            ["Q-->16 Microwave communication is which type of media?",
               {
-                    "": false,
-                    "": false,
-                    "":false,
-                    "": false
+                    "Guided": false,
+                    "Unguided": true,
+                    "Wired":false,
+                    "Coaxial": false
                 }
             ],
-            ["Q-->17 ",
+            ["Q-->17 Main disadvantage of wired communication is:",
               {
-                    "": false,
-                    "": false,
-                    "":false,
-                    "": false
+                    "High speed": false,
+                    " High reliability": false,
+                    "High installation cost":true,
+                    " Low security": false
                 }
             ],
-            ["Q-->18 ",
+            ["Q-->18 Coaxial cable is mainly used for:",
               {
-                    "": false,
-                    "": false,
-                    "":false,
-                    "": false
+                    "Satellite communication": false,
+                    "LAN connection":true,
+                    "Telephone lines":false,
+                    "Fiber optic network": false
                 }
             ],
-            ["Q-->19 ",
+            ["Q-->19  Decision-making in IoT happens at which stage?",
               {
-                    "": false,
-                    "": false,
-                    "":false,
-                    "": false
+                    "Data collection": false,
+                    "Data transmission": false,
+                    "Data processing":true,
+                    "Data visualization": false
                 }
             ],
-            ["Q-->20 ",
+            ["Q-->20 Function of IP in TCP/IP model is:",
               {
-                    "": false,
-                    "": false,
-                    "":false,
-                    "": false
+                    "Error detection": false,
+                    "Reliable delivery": false,
+                    "Addressing & routing":true,
+                    "Data encryption": false
                 }
             ],
-            ["Q-->21 ",
+            ["Q-->21 What is the main function of the Physical layer?",
               {
-                    "": false,
-                    "": false,
-                    "":false,
-                    "": false
+                    "Error detection": false,
+                    "Data transmission in bits": true,
+                    "Routing":false,
+                    "Encryption": false
                 }
             ],
-            ["Q-->22 ",
+            ["Q-->22 The Transport layer mainly provides:",
               {
-                    "": false,
-                    "": false,
-                    "":false,
-                    "": false
+                    "Segmentation and reassembly of data": true,
+                    "Error correction at bit level": false,
+                    "Cable specification":false,
+                    "Web browsing": false
                 }
             ],
-            ["Q-->23 ",
+            ["Q-->23 The Presentation layer is responsible for:",
               {
-                    "": false,
-                    "": false,
-                    "":false,
-                    "": false
+                    "Translate, encrypt, compress data": true,
+                    "Routing": false,
+                    "Bit transmission":false,
+                    "Authentication": false
                 }
             ],
-            ["Q-->24 ",
+            ["Q-->24 The Application layer directly interacts with:",
               {
-                    "": false,
-                    "": false,
-                    "":false,
-                    "": false
+                    "Operating system": false,
+                    "User/application software": true,
+                    "Physical devices":false,
+                    "Transport layer": false
                 }
             ],
-            ["Q-->25 ",
+            ["Q-->25 “Frames” are the data unit of which OSI layer?",
               {
-                    "": false,
-                    "": false,
-                    "":false,
-                    "": false
+                    "Physical": false,
+                    "Data Link": true,
+                    "Network":false,
+                    "Transport": false
                 }
             ],
-            ["Q-->26 ",
+            ["Q-->26 In which OSI layer are “Packets” created?",
               {
-                    "": false,
-                    "": false,
-                    "":false,
-                    "": false
+                    "Physical": false,
+                    "Data Link": false,
+                    "Network":true,
+                    "Transport": false
                 }
             ],
-            ["Q-->27 ",
+            ["Q-->27 In OSI model stands for",
               {
-                    "": false,
-                    "": false,
-                    "":false,
-                    "": false
+                    "Open system internet": false,
+                    "Open system interconnection": true,
+                    "Operating system internet":false,
+                    "None": false
                 }
             ],
-            ["Q-->28 ",
+            ["Q-->28 OSI model developed by",
               {
-                    "": false,
-                    "": false,
-                    "":false,
-                    "": false
+                    "OSI": false,
+                    "SOI": false,
+                    "ISO":true,
+                    "Google": false
                 }
             ],
-            ["Q-->29 ",
+            ["Q-->29 coverting digital bits into an electical,radio or optical single takes place at which layer of OSI Model",
               {
-                    "": false,
-                    "": false,
-                    "":false,
-                    "": false
+                    "Application layer": false,
+                    "Physical layer": true,
+                    "Session layer":false,
+                    "Network layer": false
                 }
             ],
-            ["Q-->30 ",
+            ["Q-->30 In Which  from data transferred in Network layer ",
               {
-                    "": false,
-                    "": false,
-                    "":false,
-                    "": false
+                    "Packets": true,
+                    "Bytes": false,
+                    "Dataram":false,
+                    "all of these": false
                 }
             ],
-            ["Q-->31 ",
+            ["Q-->31 Allow data processing close to devices ",
               {
-                    "": false,
-                    "": false,
-                    "":false,
-                    "": false
+                    "Edge Computing ": true,
+                    "Cloud computing": false,
+                    "fog computing":false,
+                    "none": false
                 }
             ],
-            ["Q-->32 ",
+            ["Q-->32 Each IP address must contain :",
               {
-                    "": false,
-                    "": false,
-                    "":false,
-                    "": false
+                    "Only destination Ip Address": false,
+                    "Only source IP Address": false,
+                    "source and destination Ip address":false,
+                    "None": false
                 }
             ],
-            ["Q-->33 ",
+            ["Q-->33 Traffic light system is the example of:",
               {
-                    "": false,
-                    "": false,
-                    "":false,
-                    "": false
+                    "Open Loop System": true,
+                    "Close Loop system": false,
+                    "Both":false,
+                    "None": false
                 }
             ],
-            ["Q-->34 ",
+            ["Q-->34 IoT communication protocols include:",
               {
-                    "": false,
-                    "": false,
-                    "":false,
-                    "": false
+                    " MQTT, CoAP, HTTP": true,
+                    "HTML, CSS, JS": false,
+                    "LAN, WAN, MAN":false,
+                    "SQL, NoSQL": false
                 }
             ],
-            ["Q-->35 ",
+            ["Q-->35 The network layer in IoT is mainly responsible for:",
               {
-                    "": false,
-                    "": false,
-                    "":false,
-                    "": false
+                    "Data sensing": false,
+                    "Data transmission": true,
+                    "User interface design":false,
+                    "Business decision-making": false
                 }
             ],
-            ["Q-->36 ",
+            ["Q-->36 Which of the following is a popular IoT development board?",
               {
-                    "": false,
-                    "": false,
-                    "":false,
-                    "": false
+                    "Arduino": true,
+                    " Photoshop": false,
+                    "Microsoft Word":false,
+                    "MS Excel": false
                 }
             ],
-            ["Q-->37 ",
+            ["Q-->37 Which of these is an IoT Cloud platform?",
               {
-                    "": false,
-                    "": false,
-                    "":false,
-                    "": false
+                    "AWS IoT": true,
+                    "Adobe Photoshop": false,
+                    "Oracle DBMS":false,
+                    "MS PowerPoint": false
                 }
             ],
-            ["Q-->38 ",
+            ["Q-->38 IoT-based wearable devices include:",
               {
-                    "": false,
-                    "": false,
-                    "":false,
-                    "": false
+                    "Smart watches": true,
+                    "Smart bulbs": false,
+                    "Smart irrigation systems":false,
+                    "Smart speakers only": false
                 }
             ],
-            ["Q-->39 ",
+            ["Q-->39 Which of the following is NOT a characteristic of IoT?",
               {
-                    "": false,
-                    "": false,
-                    "":false,
-                    "": false
+                    "Connectivity": false,
+                    "Scalability": false,
+                    "Isolation":true,
+                    "Intelligence": false
                 }
             ],
-            ["Q-->40 ",
+            ["Q-->40 What does IoT stand for?",
               {
-                    "": false,
-                    "": false,
-                    "":false,
-                    "": false
+                    "Internet of Topics": false,
+                    "nternet of Tools": false,
+                    "Internet of Things":false,
+                    "nternet of Technology": true
                 }
             ],
             ["Q-->41 ",
@@ -431,6 +431,7 @@ let q = [
             que.appendChild(btn);
             buttons.push(btn);
         }
+    
 
         function render() {
             let current = q[index];
@@ -442,9 +443,14 @@ let q = [
                 buttons[i].disabled = answered[index];
                 buttons[i].style.backgroundColor = ""; 
             }
-            feedback.textContent = "";
+          
         }
 
+
+
+
+
+        
         function next() {
             index++;
             if (index >= q.length) {

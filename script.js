@@ -604,8 +604,8 @@ function login_usar(){
 }
 
         let t=document.getElementById("time");
-        let total_time=30*60;
-        let min=34;
+        let total_time=40*60;
+        let min=39;
         let sec=60;
        
 
@@ -621,7 +621,7 @@ function login_usar(){
 
         }
     setInterval(show_time, 1000);
-    let time_up=60000*35;
+    let time_up=60000*40;
     setTimeout(function(){
         alert("your exam finished");
         t.style.display="none";
@@ -642,3 +642,4 @@ const scriptURL = 'https://script.google.com/macros/s/AKfycbyun6wj9Dyv1gFmTJNwcq
                 .then(response => alert("Thanks you ! your test submited"))
                 .catch(error => console.error('Error!', error.message))
             })
+

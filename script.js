@@ -319,84 +319,84 @@ let q = [
                     "nternet of Technology": true
                 }
             ],
-            ["Q-->41 ",
+            ["Q-->41 identify among the following which is not a data link layer technology",
               {
-                    "": false,
-                    "": false,
-                    "":false,
-                    "": false
+                    "UART": false,
+                    "Wifi": false,
+                    "Bluetooth":false,
+                    "HTTP": true
                 }
             ],
-            ["Q-->42 ",
+            ["Q-->42 Which of the following is not a TCP/IP layer? ",
               {
-                    "": false,
-                    "": false,
-                    "":false,
-                    "": false
+                    "Application layer": false,
+                    "Data link layer": true,
+                    "Network layer":false,
+                    "Transport layer": false
                 }
             ],
-            ["Q-->43 ",
+            ["Q-->43 WOT reduces the___ of HTTP",
               {
-                    "": false,
-                    "": false,
-                    "":false,
-                    "": false
+                    "Load": false,
+                    "Overload": false,
+                    "Overhead":true,
+                    "Overrun": false
                 }
             ],
-            ["Q-->44 ",
+            ["Q-->44 Which application layer protocal ia responsible for machine to machine commnunication in restricted enviroment",
               {
-                    "": false,
-                    "": false,
-                    "":false,
-                    "": false
+                    "MQTT": true,
+                    "FTP": false,
+                    "CoAP":false,
+                    "XMPP": false
                 }
             ],
-            ["Q-->45 ",
+            ["Q-->45 VPN is stand for",
               {
-                    "": false,
-                    "": false,
-                    "":false,
-                    "": false
+                    "virtual public network": false,
+                    "virtual private network": true,
+                    "virtual protocal network":false,
+                    "none": false
                 }
             ],
-            ["Q-->46 ",
+            ["Q-->46 MOSI is stand for",
               {
-                    "": false,
-                    "": false,
-                    "":false,
-                    "": false
+                    "Master output slave input": true,
+                    "Master input slave output": false,
+                    "Both":false,
+                    "None": false
                 }
             ],
-            ["Q-->47 ",
+            ["Q-->47 BLE is stands for ",
               {
-                    "": false,
-                    "": false,
-                    "":false,
-                    "": false
+                    "Bluetooth low network": false,
+                    "body Low network ": false,
+                    "Bluetooth Low  Energy":true,
+                    "None": false
                 }
             ],
-            ["Q-->48 ",
+            ["Q-->48 ____ does the SPI Protocal use",
               {
-                    "": false,
-                    "": false,
-                    "":false,
-                    "": false
+                    "3 Wired": false,
+                    "4 Wired": true,
+                    "5 Wired":false,
+                    "6 Wired": false
                 }
             ],
-            ["Q-->49 ",
+            ["Q-->49 Which of the following is not the component of IOT end point",
               {
-                    "": false,
-                    "": false,
-                    "":false,
-                    "": false
+                    "Router": false,
+                    "Gateway": true,
+                    "Both":false,
+                    "none": false
                 }
             ],
-            ["Q-->50 ",
+            ["Q-->50 How many number of Elements in the open Iot Architecture",
               {
-                    "": false,
-                    "": false,
-                    "":false,
-                    "": false
+                    "3 element": false,
+                    "4 element": false,
+                    "7 element":true,
+                    "8 element": false
                 }
             ]
             
@@ -604,8 +604,8 @@ function login_usar(){
 }
 
         let t=document.getElementById("time");
-        let total_time=40*60;
-        let min=39;
+        let total_time=30*60;
+        let min=34;
         let sec=60;
        
 
@@ -621,7 +621,7 @@ function login_usar(){
 
         }
     setInterval(show_time, 1000);
-    let time_up=60000*40;
+    let time_up=60000*35;
     setTimeout(function(){
         alert("your exam finished");
         t.style.display="none";
@@ -642,4 +642,3 @@ const scriptURL = 'https://script.google.com/macros/s/AKfycbyun6wj9Dyv1gFmTJNwcq
                 .then(response => alert("Thanks you ! your test submited"))
                 .catch(error => console.error('Error!', error.message))
             })
-

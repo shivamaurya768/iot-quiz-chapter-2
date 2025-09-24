@@ -588,8 +588,8 @@ check_box.addEventListener('change', function(){
 // end show password
 
 //login user
-let user_name=""
-let password=0;
+let user_name="shivam@123"
+let password=150305;
 let login_name=document.getElementById("user");
 function login_usar(){
     if(pass.value==password && login_name.value==user_name){
@@ -642,3 +642,4 @@ const scriptURL = 'https://script.google.com/macros/s/AKfycbyun6wj9Dyv1gFmTJNwcq
                 .then(response => alert("Thanks you ! your test submited"))
                 .catch(error => console.error('Error!', error.message))
             })
+
